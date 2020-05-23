@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "32688406556",
+    "firebase_url": "https://a3formulariopedrogomes.firebaseio.com",
+    "project_id": "a3formulariopedrogomes",
+    "storage_bucket": "a3formulariopedrogomes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32688406556:android:536d3a18c08c18868e1fd9",
+        "android_client_info": {
+          "package_name": "com.example.a3formulario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32688406556-an2gl3ep0h2e6gl8hk65rhcqo6kfegnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3IDjgic7DklmF6W2To7giaWsxsddj6sQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32688406556-an2gl3ep0h2e6gl8hk65rhcqo6kfegnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

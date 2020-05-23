@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/idBotao"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/idEditText"
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:onClick="addItemToList"
+             android:layout_width="wrap_content"
+            android:text="Inserir"
+             android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_above="@id/idBotao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee">
+         <ListView
+            android:id="@+id/idListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+         </ListView>
+    </LinearLayout>
+</RelativeLayout>
